@@ -49,7 +49,7 @@
 
 #ifdef PKGBLDDATE
 #define OPENOCD_VERSION	\
-	"Open On-Chip Debugger " VERSION RELSTR " (" PKGBLDDATE ")"
+	"Open On-Chip Debugger " VERSION RELSTR " (" PKGBLDDATE ")" " for Lichee Tang"
 #else
 #define OPENOCD_VERSION	\
 	"Open On-Chip Debugger " VERSION RELSTR
